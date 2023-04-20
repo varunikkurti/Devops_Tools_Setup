@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yum install wget unzip java -y 
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.zip    	
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.zip    	
 unzip apache-tomcat-9.0.74.zip
 rm apache-tomcat-9.0.74/conf/tomcat-users.xml
 rm apache-tomcat-9.0.74/webapps/manager/META-INF/context.xml
